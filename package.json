@@ -1,0 +1,46 @@
+{
+  "name": "react-transliteration",
+  "homepage": "https://react-transliterate.vercel.app/",
+  "version": "0.1.1",
+  "description": "Transliteration library which helps you to transliterate and support 15+ indian languages using google input tools",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "react-transliteration",
+    "transliteration",
+    "npm transliteration library",
+    "transliteration library",
+    "react-transliterate",
+    "transliteration",
+    "english to hindi transliteration",
+    "enslish to hindi transliteration",
+    "english to tamil transliteration",
+    "english to bengali transliteration",
+    "english to telegu transliteration",
+    "english to urdu transliteration",
+    "english to punjabi transliteration",
+    "english to marathi transliteration"
+  ],
+  "author": "dev.imsaurabh",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "textarea-caret": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.78",
+    "@types/react-dom": "^18.2.25",
+    "@types/textarea-caret": "^3.0.3",
+    "axios": "^1.6.8",
+    "textarea-caret": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
