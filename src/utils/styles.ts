@@ -7,6 +7,7 @@ export type caretPos = {
 const main: React.CSSProperties = {
     width: "100%",
     height: "100%",
+    position:"relative"
 }
 
 const pretextAreaStyle: React.CSSProperties = {

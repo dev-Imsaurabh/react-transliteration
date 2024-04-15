@@ -27,7 +27,6 @@ Introducing react-transliteration, the ultimate solution for effortless and accu
                         suggestionDivStyle={{ textAlign:  "center" }}
                         activeItemStyle={{ minWidth:  "70px", minHeight:  "40px", display:  "grid", placeItems:  "center", backgroundColor:  "green" }}
                         placeholder="Powered By React Transliteration..."
-                        offsetY={28}
                         textAreaStyle={{ padding:  '8px' }}
                         />
                 </div>
