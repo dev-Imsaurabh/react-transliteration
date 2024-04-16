@@ -1,6 +1,6 @@
 {
   "name": "react-transliteration",
-  "homepage": "https://react-transliteration.vercel.app/",
+  "homepage": "https://bharat-typing.vercel.app/",
   "version": "0.1.4",
   "description": "Transliteration library which helps you to transliterate and support 15+ indian languages using google input tools",
   "main": "./dist/index.js",

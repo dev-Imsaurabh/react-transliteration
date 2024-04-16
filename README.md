@@ -3,7 +3,7 @@ Introducing react-transliteration, the ultimate solution for effortless and accu
 
 # Demo
 
-  [Checkout live demo of the component. Click here](https://react-transliteration.vercel.app/)
+  [Checkout live demo of the component. Click here](https://bharat-typing.vercel.app/)
 
 # Installation
 
