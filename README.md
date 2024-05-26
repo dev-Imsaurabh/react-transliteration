@@ -28,6 +28,7 @@ Introducing react-transliteration, the ultimate solution for effortless and accu
                         activeItemStyle={{ minWidth:  "70px", minHeight:  "40px", display:  "grid", placeItems:  "center", backgroundColor:  "green" }}
                         placeholder="Powered By React Transliteration..."
                         textAreaStyle={{ padding:  '8px' }}
+                        attr = {{name:"text"}}
                         />
                 </div>
     }
@@ -52,6 +53,7 @@ Introducing react-transliteration, the ultimate solution for effortless and accu
 | **suggestionItemStyle** (React.CSSProperties) | custom styles for suggestion items
 | **activeItemStyle** (React.CSSProperties) |custom styles for suggestion div item [if active]
 | **textAreaStyle** (React.CSSProperties) | custom styles for your textarea
+| **attr** (React.HTMLProps<HTMLTextAreaElement>) | custom attributes for your textarea
 | **placeholder** (string) | placeholder for textarea
 | **offsetX** (number) | manipulate the suggestion div offsetX [from left]
 | **offsetY** (number) | manipulate the suggestion div offsetY [from top]
