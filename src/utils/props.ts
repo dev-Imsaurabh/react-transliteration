@@ -82,12 +82,15 @@ export interface Componentprops extends React.HTMLProps<HTMLTextAreaElement> {
     /**
      * manipulate the suggestion div offsetX [from left]
      */
-    offsetX?:number
+    offsetX?: number
 
     /**
      * manipulate the suggestion div offsetY [from top]
      */
-    offsetY?:number
+    offsetY?: number
 
-
+    /**
+       * custom attributes for text area
+       */
+    attr?: React.HTMLProps<HTMLTextAreaElement>
 } 

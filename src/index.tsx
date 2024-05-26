@@ -5,7 +5,7 @@ import { ActionKeys, calculateRows, getInputSelection, rtlLanguages, updateText 
 import { Componentprops } from "./utils/props";
 import { caretPos, main, suggestionsDiv, suggestionsItem, pretextAreaStyle } from "./utils/styles";
 
-function ReactTransliteration({ text = "", onChangeText, language = "hi", keys = [" ", "Enter", "Tab"], enabled = false, renderKey, textRef, placeholder = "", textAreaStyle = {}, suggestionDivStyle = {}, suggestionItemStyle = {}, activeItemStyle = {}, offsetX = 0, offsetY = 0, mainDivStyle = {} }: Componentprops) {
+function ReactTransliteration({ text = "", onChangeText, language = "hi", keys = [" ", "Enter", "Tab"], enabled = false, renderKey, textRef, placeholder = "", textAreaStyle = {}, suggestionDivStyle = {}, suggestionItemStyle = {}, activeItemStyle = {}, offsetX = 0, offsetY = 0, mainDivStyle = {}, attr }: Componentprops) {
     const [lastWord, setLastWord] = useState<string>("")
     const [selection, setSelection] = useState<number>(0)
     const [matchStart, setMatchStart] = useState<number>(-1)
@@ -201,7 +201,9 @@ function ReactTransliteration({ text = "", onChangeText, language = "hi", keys =
                 timeRef.current = setTimeout(() => {
                     update()
                 }, 500)
-            }}  >
+            }}  
+            {...attr}
+            >
 
         </textarea>
     </div>
