@@ -7,10 +7,10 @@ export default defineConfig({
     shims: true,
     skipNodeModulesBundle: true,
     clean: true,
-    target: 'esnext', // Ensure targeting modern JS syntax
+    target: 'esnext',
     esbuildOptions: (options) => {
         options.loader = {
-            '.js': 'jsx', // Ensure JSX/JS files are correctly parsed
+            '.js': 'jsx',
             '.ts': 'ts',
             '.tsx': 'tsx',
         };
