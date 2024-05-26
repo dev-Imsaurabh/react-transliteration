@@ -13,6 +13,7 @@ export default defineConfig({
             '.js': 'jsx',
             '.ts': 'ts',
             '.tsx': 'tsx',
+            '.mjs': 'js'
         };
     },
 });
